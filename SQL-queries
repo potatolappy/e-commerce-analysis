@@ -1,3 +1,25 @@
+# storing new tables inside the database
+
+CREATE TABLE olist_analysis (
+	product_id TEXT,
+    	seller_id TEXT,
+    	category_name TEXT,
+    	city TEXT,
+    	price FLOAT,
+    	freight_value FLOAT
+)
+
+# inserting data into the new table
+
+INSERT INTO olist_analysis (
+	product_id TEXT,
+    	seller_id TEXT,
+    	category_name TEXT,
+    	city TEXT,
+    	price FLOAT,
+    	freight_value FLOAT
+)
+
 SELECT 
 	olist_order_items_dataset.product_id,
 	olist_order_items_dataset.seller_id,
