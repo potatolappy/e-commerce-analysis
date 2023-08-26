@@ -16,4 +16,6 @@ Tools used: Python, SQLite (DB Browser)
 
 **Cleaning process**
 
-1. inspecting NaN 
+1. inspecting shape and general info (done)
+2. inspecting null values (done)
+3. 
