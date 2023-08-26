@@ -16,6 +16,9 @@ Tools used: Python, SQLite (DB Browser)
 
 **Cleaning process**
 
-1. inspecting shape and general info (done)
-2. inspecting null values (done)
-3. 
+1. inspecting shape and general info (done in Python)
+2. inspecting null values (done in Python)
+3. inspecting inconsistent datatype (done in SQL)
+4. inspecting duplicates (done in Python)
+5. inspecting outlier (done in python)
+6. 
