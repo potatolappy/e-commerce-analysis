@@ -1,23 +1,25 @@
 # storing new tables inside the database
 
-CREATE TABLE olist_analysis (
+CREATE TABLE olist_data (
 	product_id TEXT,
     	seller_id TEXT,
     	category_name TEXT,
     	city TEXT,
     	price FLOAT,
-    	freight_value FLOAT
+    	freight_value FLOAT,
+	order_purchase_timestamp TEXT
 )
 
 # inserting data into the new table
 
-INSERT INTO olist_analysis (
-	product_id TEXT,
-    	seller_id TEXT,
-    	category_name TEXT,
-    	city TEXT,
-    	price FLOAT,
-    	freight_value FLOAT
+INSERT INTO olist_data (
+	product_id,
+    	seller_id,
+    	category_name,
+    	city,
+    	price,
+    	freight_value,
+	order_purchase_timestamp
 )
 
 SELECT 
@@ -26,10 +28,13 @@ SELECT
 	olist_sellers_dataset.seller_city,
 	olist_order_items_dataset.price,
 	olist_order_items_dataset.freight_value,
-	olist_products_dataset.product_category_name
+	olist_products_dataset.product_category_name,
+	olist_order_dataset.order_purchase_timestamp
 FROM 
 	olist_order_items_dataset
 LEFT JOIN 
 	olist_sellers_dataset ON olist_order_items_dataset.seller_id = olist_sellers_dataset.seller_id
 LEFT JOIN
         olist_products_dataset ON olist_order_items_dataset.product_id = olist_products_dataset.product_id
+LEFT JOIN
+    olist_order_dataset ON olist_order_items_dataset.order_id = olist_order_dataset.order_id
