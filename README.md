@@ -6,7 +6,16 @@ Lorem ipsum dolor imet
 
 **Tools**
 
-Tools used: Python, SQLite (DB Browser)
+Tools used: 
+- Jupyter Notebook, better suited for narrative story telling
+- SQLite (DB Browser), somehow the dataset provided is in .db not .sql, so will be using this one
+
+**Some key highlights of the project**
+
+- considering which dataset to be manipulated or not using z-scores parameter
+- cleaning null values
+- formatting datatypes in SQL
+- some visualization using seaborne
 
 **Objective:**
 
@@ -21,4 +30,5 @@ Tools used: Python, SQLite (DB Browser)
 3. inspecting inconsistent datatype (done in SQL)
 4. inspecting duplicates (done in Python)
 5. inspecting outlier (done in python)
-6. 
+
+the analysis can be viewed at ```olist_analysis.ipynb```
