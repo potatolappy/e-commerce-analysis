@@ -4,7 +4,6 @@ a pacmannn SQL Wrangling project
 
 **Tools**
 
-Tools used: 
 - Jupyter Notebook, better suited for narrative story telling
 - SQLite (DB Browser), somehow the dataset provided is in .db not .sql, so will be using this one
 
@@ -16,6 +15,8 @@ Tools used:
 - some visualizations using seaborne
 
 **Objective:**
+
+Finding out what insights that can be generated from the data
 
 Theme: Location efficiency, identifying tier 1, 2 and 3 cities
 
@@ -37,3 +38,5 @@ Theme: Location efficiency, identifying tier 1, 2 and 3 cities
 5. inspecting outlier (done in python)
 
 the analysis can be viewed at ```olist_analysis.ipynb``` while the file can be accessed at ```olist_data.csv``` and ```product_translation.csv``` to change portoguese -> english
+
+the entire dataset can be found here: https://drive.google.com/drive/folders/1y-or_Rba1ambWkkNzhYKtRHRwC7g0A5n
