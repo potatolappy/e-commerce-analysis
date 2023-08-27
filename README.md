@@ -1,8 +1,6 @@
 # e-commerce-analysis
 
-note: i havent even review the dataset yet, this is just a doodle brainfart
-
-Lorem ipsum dolor imet
+a pacmannn SQL Wrangling project
 
 **Tools**
 
@@ -22,8 +20,13 @@ Tools used:
 Theme: Location efficiency, identifying tier 1, 2 and 3 cities
 
 1. Best selling product category
+   conclusion: more marketing effort should be directed towards health, watches, bed & bath, sports & computer accessories 
+  
 2. Revenue generated in each city
-3. average logistic cost in each city
+   conclusion: Sao Paolo is a tier 1 city, almost 20% of revenue generated in this single city alone
+   
+5. most expensive logistic cost in each city
+   conclusion: none of the top 10 most expensive city is also the most profitable one, consider reducing or relinquish office operation in that region
 
 **Cleaning process**
 
@@ -33,4 +36,4 @@ Theme: Location efficiency, identifying tier 1, 2 and 3 cities
 4. inspecting duplicates (done in Python)
 5. inspecting outlier (done in python)
 
-the analysis can be viewed at ```olist_analysis.ipynb```
+the analysis can be viewed at ```olist_analysis.ipynb``` while the file can be accessed at ```olist_data.csv``` and ```product_translation.csv``` to change portoguese -> english
