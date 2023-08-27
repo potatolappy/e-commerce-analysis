@@ -32,14 +32,6 @@ Theme: Location efficiency, identifying tier 1, 2 and 3 cities
 
    conclusion: none of the top 10 most expensive city is also the most profitable one, consider reducing or relinquish office operation in that region
 
-**Cleaning process**
-
-1. inspecting shape and general info (done in Python)
-2. inspecting null values (done in Python)
-3. inspecting inconsistent datatype (done in SQL)
-4. inspecting duplicates (done in Python)
-5. inspecting outlier (done in python)
-
 the analysis can be viewed at ```olist_analysis.ipynb``` while the file can be accessed at ```olist_data.csv``` and ```product_translation.csv``` to change portoguese -> english
 
 the entire dataset can be found here: https://drive.google.com/drive/folders/1y-or_Rba1ambWkkNzhYKtRHRwC7g0A5n
