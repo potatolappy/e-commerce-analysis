@@ -21,12 +21,15 @@ Finding out what insights that can be generated from the data
 Theme: Location efficiency, identifying tier 1, 2 and 3 cities
 
 1. Best selling product category
+   
    conclusion: more marketing effort should be directed towards health, watches, bed & bath, sports & computer accessories 
   
-2. Revenue generated in each city
+3. Revenue generated in each city
+
    conclusion: Sao Paolo is a tier 1 city, almost 20% of revenue generated in this single city alone
    
 5. most expensive logistic cost in each city
+
    conclusion: none of the top 10 most expensive city is also the most profitable one, consider reducing or relinquish office operation in that region
 
 **Cleaning process**
