@@ -10,9 +10,9 @@ a pacmannn SQL Wrangling project
 **Some key highlights of the project**
 
 - Using z-scores parameter to detect outliers, and normalize the data
-- cleaning / dropping null values
+- replacing / dropping null values
 - formatting datatypes in SQL
-- some visualizations using seaborne
+- some visualizations using seaborne (boxplot, histplot, barplot)
 - assuming the e-commmerce company also operate their own logistic center, with some 3PL help
 
 **Objective:**
