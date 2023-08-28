@@ -13,6 +13,7 @@ a pacmannn SQL Wrangling project
 - cleaning / dropping null values
 - formatting datatypes in SQL
 - some visualizations using seaborne
+- assuming the e-commmerce company also operate their own logistic center, with some 3PL help
 
 **Objective:**
 
