@@ -13,6 +13,7 @@ an SQL Wrangling, cleaning and dataset manipulation project
 - replacing / dropping null values
 - formatting datatypes in SQL
 - some visualizations using seaborne (boxplot, histplot, barplot)
+- Appending one or more columns using pandas
 
 **Objective:**
 
