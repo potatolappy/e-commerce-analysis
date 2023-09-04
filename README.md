@@ -1,6 +1,6 @@
 # e-commerce-analysis
 
-a pacmannn SQL Wrangling project
+an SQL Wrangling, cleaning and dataset manipulation project
 
 **Tools**
 
@@ -13,7 +13,6 @@ a pacmannn SQL Wrangling project
 - replacing / dropping null values
 - formatting datatypes in SQL
 - some visualizations using seaborne (boxplot, histplot, barplot)
-- assuming the e-commmerce company also operate their own logistic center, with some 3PL help
 
 **Objective:**
 
@@ -32,6 +31,8 @@ Theme: Location efficiency, identifying tier 1, 2 and 3 cities
 5. most expensive logistic cost in each city
 
    conclusion: none of the top 10 most expensive city is also the most profitable one, consider reducing or relinquish office operation in that region
+
+note: we will assume the e-commmerce company also operate their own logistic center, with some 3PL help
 
 the analysis can be viewed at ```main_analysis.ipynb``` while the file can be accessed at ```olist_data.csv``` and ```product_translation.csv``` to change portuguese -> english
 
