@@ -1,6 +1,6 @@
 # e-commerce-analysis
 
-an SQL Wrangling, cleaning and dataset manipulation project
+an SQL Wrangling, cleaning and dataset manipulation project. a simple narrative storytelling of this project can be found here: https://medium.com/@rasyidi.haris/mini-project-e-commerce-dataset-wrangling-with-sql-and-pandas-2843ed7c2ac9
 
 **Tools**
 
